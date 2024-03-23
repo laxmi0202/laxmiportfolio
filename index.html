@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" 
+    href="table.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)"
+    href="phone.css">
+ 
+</head>    
+<body>q
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">certifications</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>   
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> THULA LAXMI PRASANNA</h1>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="images/passphoto.jpg" alt="">
+            <div id="intro">
+                <h2>THULA LAXMI PRASANNA</h2>
+                <P> Information Technology student with a strong 
+                    foundation in programming.Quick learner with 
+                    a demonstrated commitment to achieving goals.
+                    Motivated and ambitious student seeking a 
+                    challenging job opportunity to gain practical 
+                    experience while contributing to the success of
+                    an organization.With a strong academic background 
+                    I am eager to apply my skills and knowledge to 
+                    real-world projects,further developing my professional
+                    capabilities.</P>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h1 class="headings">TECHNICAL SKILLS</h1>
+        <div class ="row">
+            <div class = "box">
+                <h6 class="headings">programming Language</h6>
+                <P><ul>
+                    <li><h2>Python</h2></li>
+                    <li><h2>Core Java</h2></li>
+                </ul></P>
+            </div>
+            <div class = "box">
+                <h6 class="headings">Web Development</h6>
+                <P><ul>
+                    <li><h2>Html</h2></li>
+                    <li><h2>Css[familiar]</h2></li>
+                </ul></P>
+            </div>
+            <div class = "box">
+                <h6 class="headings">Course work</h6>
+                <P><ul>
+                    
+                    <li><h2>Data base management systems</h2></li>
+                </ul></P>
+            </div>
+        </div>
+        <h1 class="headings">SOFT SKILLS</h1>
+        <div class ="row">
+            <div class = "box">
+                <h6 class="headings">TeamWork</h6>
+                <p>	Worked as COUNSELLER in voice4girls an NGO that works for the development of marginalized girls and boys.</P>
+            </div>
+            <div class = "box">
+                <h6 class="headings">Presentation Skills</h6>
+                <P>By participating in presentation competitions I improved
+                my skills in effectivily conveying information clearly to
+                deverse audiences.</P>
+            </div>
+            <div class = "box">
+                <h6 class="headings"><small>Communication & Organisational Skills</small></h6>
+                <P>Organised more than 3 events in college boosted my Organisational
+                & communication Skills. 
+    </section>
+    <section id="education">
+        <h1 class="headings">EDUCATION</h1>
+        <div class="education-entry">
+            <ul>
+            <li><h2><a href="#">Bachelor of Technology in Information Technology</a></h2></li>
+            <li><h2>JNTUH College of Engineering,  JAGITYAL</h2></li>
+            <li>2020-2024</li>
+            <li>CGPA-7.7/10</li>
+            </ul>
+        </div>
+        <div class="education-entry">
+            <ul>
+            <li><h2><a href="#">Intermediate in MPC</a></h2></li>
+            <li><h2>Narayana Junior College,  HYDERABAD</h2></li>
+            <li>2018-2020</li>
+            <li>Marks-964/1000</li>
+            </ul>
+        </div>
+        <div class="education-entry">
+            <ul>
+            <li><h2><a href="#">Elementary and Middle Schooling</a></h2></li>
+            <li><h2>Hyderabad Krishnaveni High School,Mancherial</h2></li>
+            <li>2018</li>
+            <li>GPA-9.3/10</li>
+            </ul>
+        </div>
+    </section>
+    <section id="certifications">
+        <hl class="headings">CERTIFICATIONS</hl>
+        <div class="gallery">
+            <img src="C:\Users\thula\Downloads\sql_basic certificate.pdf" alt="">
+            <img src="C:\Users\thula\Downloads\udemy.pdf" alt="">
+            <!--<img src="images/certificate2.jpg" alt="">
+            <img src="images/certificate1.jpg" alt="">-->
+        </div>                   
+    </section>
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <div class =contact-info>
+            
+                <p><h2><a href="#">Address</a></h2></li><br>
+                H.no: 20-183/2,edla wada<br><br>
+                college road,Mancherial</p>
+       </div>
+       <br><br><br>
+       <div class="contact-info">
+        
+                <p><h2><a href="#">Phone Number</a></h2></li><br>
+                (+91) 8341106655</p>
+        </div>
+        <br><br><br>
+        <div class="contact-info">
+            
+                <p><h2><a href="#">Email</a></h2><br>
+                @ thulalaxmi0204@gmail.com</p>
+        </div>
+        <br><br>        
+        <div class="container">
+                <!--<input type="file" id="resumeinput" style="display: none;">-->
+                <input type="button" value="Resume" onclick="uploadResume()">
+                <!--<input type="submit" value="upload resume">-->
+                <!--<a href="C:\Users\thula\Desktop\RESUME.pdf" download="resume.pdf">Download Resume</a>-->
+        </div>        
+                <script>
+                    function uploadResume() {
+                        // Trigger click event on the hidden file input
+                        //document.getElementById('resumeinput').click();
+                    
+                    
+                    // Handle file selection
+                    //document.getElementById('resumeinput').addEventListener('change', function(e) {
+                        //const file = e.target.files[0];
+                        //if (file) {
+                            // Assuming the file name is 'resume.pdf', change it accordingly if needed
+                            //const resumeUrl = URL.createObjectURL(file);
+                            // Redirect to the uploaded resume file
+                            window.location.href = "https://drive.google.com/file/d/14ITMHyauSMRKiilmyRvcjq9QQ8jpc0PP/view?usp=sharing";
+                        }
+                    
+                    </script>
+                    
+        
+    
+    </section>    
+    
+</body>
+</html>
